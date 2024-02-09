@@ -3,7 +3,16 @@ package dia3;
 import java.util.Scanner;
 
 public class RelojDemo {
+
+
+
+
+
     public static void main(String[] args) {
+
+        System.out.println("Ingrese el tiempo en segundos desde la medianoche:");
+
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese el tiempo en segundos desde la medianoche:");
         int tiempoSegundos = scanner.nextInt();

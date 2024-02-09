@@ -114,5 +114,6 @@ public class Reloj {
             diferenciaSegundos += 24 * 3600;
         }
         return new Reloj(diferenciaSegundos);
+
     }
 }
